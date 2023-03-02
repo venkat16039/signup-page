@@ -1,0 +1,11 @@
+CREATE TABLE personal_info (
+
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+
+  dob DATE NOT NULL,
+
+  age INT(3) NOT NULL,
+
+  contact TEXT NOT NULL
+
+)
